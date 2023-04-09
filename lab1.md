@@ -14,10 +14,10 @@ Now that you have successfully remote connected to a computer, let's try some co
 2. Then click on **new terminal**.
 
 Here is a list of some commands:
-*cd ~
-*cd
-*ls -lat
-*ls -a
-*ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc **Note: abc is another person's username** 
-*cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+*cd ~\
+*cd\
+*ls -lat\
+*ls -a\
+*ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc **Note: abc is another person's username** \
+*cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ \
 *cat /home/linux/ieng6/cs15lsp23/public/hello.txt
