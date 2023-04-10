@@ -35,3 +35,7 @@ Here is a list of some commands:
 * ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc **Note: abc is another person's username** 
 * cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+
+Here's an example of what the terminal might look like after trying all of the commands:
+
+![Image](Welcome - cse12-pa1-Testing-master - Visual Studio Code 4_7_2023 1_50_26 PM.png)
