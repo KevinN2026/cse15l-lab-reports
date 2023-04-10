@@ -14,6 +14,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?".
 Type yes. Then it will display a message that looks like this "Warning: Permanently added 'ieng6.ucsd.edu,128.54.70.238' (RSA) to the list of known hosts.". Immediately after that message, it will ask you for your password. Enter your password. **Note: When entering your password, the terminal will not display anything while you're typing. Even though it's not displaying anything, the characters are still typed. Just be careful not to make mistakes as again, nothing is displayed.**
 
 You are successfully logged in if you see a message looking like this:
+
 ![Image](VSC SSH Terminal (2).png)
 
 The entire terminal after a successful login should look something like this:
