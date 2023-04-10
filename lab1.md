@@ -5,22 +5,16 @@ If you don't have Visual Studio Code installed on your computer already, you hav
 
 # **Remotely Connecting**
 
-You will need to have [git](https://gitforwindows.org/) installed. After installing git, go to the terminal in Visual Studio Code. You will need the terminal to be using [git bash](https://stackoverflow.com/a/50527994). After that, you will need to type ssh cs15lsp23zz@ieng6.ucsd.edu into the terminal. **Note: zz is a placeholder, you will replace zz with the corresponding letters of your [account](https://sdacs.ucsd.edu/~icc/index.php).** After entering that into the terminal, it will display the message "The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
+You will need to have [git](https://gitforwindows.org/) installed. After installing git, go to the terminal in Visual Studio Code. You will need the terminal to be using [git bash](https://stackoverflow.com/a/50527994). After that, you will need to type ssh cs15lsp23zz@ieng6.ucsd.edu into the terminal. **Note: zz is a placeholder, you will replace zz with the corresponding letters of your [account](https://sdacs.ucsd.edu/~icc/index.php).** After entering that into the terminal, it will display the message: 
+
+"The authenticity of host 'ieng6.ucsd.edu (128.54.70.238)' can't be established.
 RSA key fingerprint is SHA256:ksruYwhnYH+sySHnHAtLUHngrPEyZTDl/1x99wUQcec.     
 Are you sure you want to continue connecting (yes/no/[fingerprint])?".
 
 Type yes. Then it will display a message that looks like this "Warning: Permanently added 'ieng6.ucsd.edu,128.54.70.238' (RSA) to the list of known hosts.". Immediately after that message, it will ask you for your password. Enter your password. **Note: When entering your password, the terminal will not display anything while you're typing. Even though it's not displaying anything, the characters are still typed. Just be careful not to make mistakes as again, nothing is displayed.**
 
 You are successfully logged in if you see a message looking like this:
-Hello cs15lsp23go, you are currently logged into ieng6-201.ucsd.edu
-
-You are using 0% CPU on this system
-
-Cluster Status
-Hostname     Time    #Users  Load  Averages
-ieng6-201   10:10:01   7  0.25,  0.10,  0.12
-ieng6-202   10:10:01   8  3.19,  3.13,  3.54
-ieng6-203   10:10:01   6  0.05,  0.04,  0.10
+![Image](VSC SSH Terminal (2).png)
 
 The entire terminal after a successful login should look something like this:
 ![Image](VSC SSH Terminal.png)
