@@ -31,14 +31,15 @@ Note: The text may be hard to see, you may have to open this image in a new tab 
 Now that you have successfully remote connected to a computer, let's try some commands. Experiment and play around with different commands to see what they do. Type the commands into the terminal in Visual Studio Code. 
 
 Here is a list of some commands:
-* cd ~
-* cd
-* ls -lat
-* ls -a
-* ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc **Note: abc is another person's username** 
-* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt
-
+```
+* cd ~ (This command will change the current directory to the home directory.)
+* cd (This command will change the current directory to the specified directory inputed after cd.)
+* ls -lat (This command will display the contents of lat directory.)
+* ls -a (This command will display the contents of the a directory.)
+* ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc **Note: abc is another person's username**  (This command will display the contents of cs15lsp23abc.)
+* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ (This command will copy the hello.txt file.)
+* cat /home/linux/ieng6/cs15lsp23/public/hello.txt (This command will read and display the contents of hello.txt file.)
+```
 Here's an example of what the terminal might look like after trying all of the commands:
 
 ![Image](Welcome - cse12-pa1-Testing-master - Visual Studio Code 4_7_2023 1_50_26 PM.png)
