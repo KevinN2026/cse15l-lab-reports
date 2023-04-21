@@ -32,13 +32,13 @@ Now that you have successfully remote connected to a computer, let's try some co
 
 Here is a list of some commands:
 ```
-* cd ~ (This command will change the current directory to the home directory.)
-* cd (This command will change the current directory to the specified directory inputed after cd.)
-* ls -lat (This command will display the contents of lat directory.)
-* ls -a (This command will display the contents of the a directory.)
+* **cd ~** (This command will change the current directory to the home directory.)
+* **cd** (This command will change the current directory to the specified directory inputed after cd.)
+* **ls -lat** (This command will display the contents of lat directory.)
+* **ls -a** (This command will display the contents of the a directory.)
 * ls /home/linux/ieng6/cs15lsp23/cs15lsp23abc **Note: abc is another person's username**  (This command will display the contents of cs15lsp23abc.)
-* cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ (This command will copy the hello.txt file.)
-* cat /home/linux/ieng6/cs15lsp23/public/hello.txt (This command will read and display the contents of hello.txt file.)
+* **cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/** (This command will copy the hello.txt file.)
+* **cat /home/linux/ieng6/cs15lsp23/public/hello.txt** (This command will read and display the contents of hello.txt file.)
 ```
 Here's an example of what the terminal might look like after trying all of the commands:
 
