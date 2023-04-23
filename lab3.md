@@ -47,3 +47,9 @@ The handleRequest method is being called. The argument for this method is the UR
 The handleRequest method is being called. The argument for this method is the URL, in this case would be http://localhost:4250/add-message?s=How%20are%20you. Since /add-message?s=How are you was entered into the search bar, the first if statement was not satisfied and moved onto the else statement. It satisfies the else statement and changes the previous value, which was Hello, of string to be Hello How are you. After Hello is a new line character. 
 
 # **Part 2**
+A failure inducing input for both reverse methods was any array that was not empty. An example of a failure inducing input is
+```
+
+
+
+```
