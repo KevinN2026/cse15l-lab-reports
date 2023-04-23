@@ -78,7 +78,7 @@ Non failure inducing inputs for both reverse methods are
 }
 ```
 
-Code before change:
+Code and bug before change:
 ```
 public class ArrayExamples {
   static void reverseInPlace(int[] arr) {
@@ -95,8 +95,10 @@ public class ArrayExamples {
     return arr;
   }
 ```
+![Image](ArrayTests.java - lab3 - Visual Studio Code 4_23_2023 1_49_55 PM.png)
 
-Code after change:
+
+Code and bug after change:
 ```
 public class ArrayExamples {
 
@@ -119,3 +121,4 @@ public class ArrayExamples {
     return arr;
   }
 ```
+![Image](ArrayTests.java - lab3 - Visual Studio Code 4_23_2023 1_44_47 PM.png)
