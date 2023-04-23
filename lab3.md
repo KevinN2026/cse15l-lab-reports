@@ -49,7 +49,11 @@ The handleRequest method is being called. The argument for this method is the UR
 # **Part 2**
 A failure inducing input for both reverse methods was any array that was not empty. An example of a failure inducing input is
 ```
-
+@Test
+  public void testReversed1Elem(){
+    int[] input1 = {0};
+    assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
+  }
 
 
 ```
