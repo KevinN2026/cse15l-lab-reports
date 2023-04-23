@@ -47,19 +47,19 @@ The handleRequest method is being called. The argument for this method is the UR
 The handleRequest method is being called. The argument for this method is the URL, in this case would be http://localhost:4250/add-message?s=How%20are%20you. Since /add-message?s=How are you was entered into the search bar, the first if statement was not satisfied and moved onto the else statement. It satisfies the else statement and changes the previous value, which was Hello, of string to be Hello How are you. After Hello is a new line character. 
 
 # **Part 2**
-A failure inducing input for both reverse methods was any array that was not empty. An example of a failure inducing input is
+Failure inducing inputs for both reverse methods was any array that was not empty. An example of failure inducing inputs are
 ```
 @Test
   public void testReversed1Elem(){
     int[] input1 = {0};
     assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
   }
+@Test 
+   public void testReverseInPlace4Elem() {
+     int[] input1 = {9, 6, 3, 0};
+     ArrayExamples.reverseInPlace(input1);
+     assertArrayEquals(new int[]{0, 3, 6, 9}, input1);
+}
 ```
-	@Test 
-	public void testReverseInPlace4Elem() {
-    int[] input1 = {9, 6, 3, 0};
-    ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{0, 3, 6, 9}, input1);
-	}
 
 A non failure inducing input for 
