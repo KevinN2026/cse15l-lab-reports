@@ -54,6 +54,6 @@ A failure inducing input for both reverse methods was any array that was not emp
     int[] input1 = {0};
     assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
   }
-
-
 ```
+
+A non failure inducing input for 
