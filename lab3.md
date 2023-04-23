@@ -62,4 +62,7 @@ Failure inducing inputs for both reverse methods was any array that was not empt
 }
 ```
 
-A non failure inducing input for 
+Non failure inducing inputs for both reverse methods are 
+```
+
+```
