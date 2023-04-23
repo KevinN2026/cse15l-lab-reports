@@ -64,5 +64,16 @@ Failure inducing inputs for both reverse methods was any array that was not empt
 
 Non failure inducing inputs for both reverse methods are 
 ```
-
+@Test
+  public void testReversed() {
+    int[] input1 = { };
+    assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
+  }
+  
+ @Test 
+    public void testReverseInPlaceEmpty() {
+      int[] input1 = {};
+      ArrayExamples.reverseInPlace(input1);
+      assertArrayEquals(new int[]{}, input1);
+}
 ```
