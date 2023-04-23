@@ -55,5 +55,11 @@ A failure inducing input for both reverse methods was any array that was not emp
     assertArrayEquals(new int[]{0}, ArrayExamples.reversed(input1));
   }
 ```
+	@Test 
+	public void testReverseInPlace4Elem() {
+    int[] input1 = {9, 6, 3, 0};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{0, 3, 6, 9}, input1);
+	}
 
 A non failure inducing input for 
