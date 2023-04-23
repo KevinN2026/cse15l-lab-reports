@@ -96,6 +96,10 @@ public class ArrayExamples {
   }
 ```
 ![Image](ArrayTests.java - lab3 - Visual Studio Code 4_23_2023 1_49_55 PM.png)
+The bug for the reversed in place method was that it changed the values in the input array instead of moving them around. The bug for the reversed method was that it returned arr instead of newArray. Arr is the input array and newArray is the new array. In addition, it didn't change the values in the new array. 
+
+
+
 
 
 Code and bug after change:
@@ -122,7 +126,7 @@ public class ArrayExamples {
   }
 ```
 ![Image](ArrayTests.java - lab3 - Visual Studio Code 4_23_2023 1_44_47 PM.png)
-
+The change for reversed in place method fixed the bug because it only moves elements around up to the middle of the array and it doesn't actually change any elements. The change for the reversed method fixed the bug because it returns the new array.
 
 # **Part 3**
 Something new I learned from lab 2 and 3 was making a server that would display changes. For lab 3, I had to create a server similar to lab2, but this one dealt with strings instead of numbers.
