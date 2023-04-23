@@ -122,3 +122,8 @@ public class ArrayExamples {
   }
 ```
 ![Image](ArrayTests.java - lab3 - Visual Studio Code 4_23_2023 1_44_47 PM.png)
+
+
+# **Part 3**
+Something new I learned from lab 2 and 3 was making a server that would display changes. For lab 3, I had to create a server similar to lab2, but this one dealt with strings instead of numbers.
+
