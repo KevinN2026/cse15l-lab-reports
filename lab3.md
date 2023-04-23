@@ -77,3 +77,26 @@ Non failure inducing inputs for both reverse methods are
       assertArrayEquals(new int[]{}, input1);
 }
 ```
+
+Code before change:
+```
+public class ArrayExamples {
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+
+  static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+Code after change:
+```
+
+```
