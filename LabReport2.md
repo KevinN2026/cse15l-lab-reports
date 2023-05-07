@@ -39,12 +39,12 @@ class StringServer {
 ```
 
 ![Image](localhost_4250_add-message_s=Hello - Google Chrome 4_23_2023 12_11_05 PM.png)
-The handleRequest method is being called. The argument for this method is the URL, in this case would be http://localhost:4250/add-message?s=Hello. Since /add-message?s=Hello was entered into the search bar, the first if statement was not satisfied and moved onto the else statement. It satisfies the else statement and changes the previous value, which was an empty string, of string to be Hello. 
+The handleRequest method is being called. The url is http://localhost:4250/add-message?s=Hello. Since /add-message?s=Hello was entered into the search bar, the first if statement was not satisfied and moved onto the else statement. It satisfies the else statement and changes the previous value, which was an empty string, of string to be Hello. In StringServer.java, add-message?s=Hello gets split at the equal sign and the argument is what is after the equal sign. In this case, it's Hello. The string "Hello" gets displayed on the server.
 
 
 
 ![Image](localhost_4250_add-message_s=Hello - Google Chrome 4_23_2023 12_11_53 PM.png)
-The handleRequest method is being called. The argument for this method is the URL, in this case would be http://localhost:4250/add-message?s=How%20are%20you. Since /add-message?s=How are you was entered into the search bar, the first if statement was not satisfied and moved onto the else statement. It satisfies the else statement and changes the previous value, which was Hello, of string to be Hello How are you. After Hello is a new line character. 
+The handleRequest method is being called. The URL is http://localhost:4250/add-message?s=How%20are%20you. In StringServer.java, the url gets split at the equal sign. The argument is what is after it, in this case, it's How are you, exluding the % symbols. The first if statement was not satisfied and moved onto the else statement. It satisfies the else statement and changes the previous value, which was Hello, of string to be Hello How are you. After Hello is a new line character. 
 
 # **Part 2**
 Failure inducing inputs for both reverse methods was any array that was not empty and had more than one elements. An example of failure inducing inputs are
