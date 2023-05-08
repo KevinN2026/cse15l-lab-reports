@@ -119,7 +119,7 @@ most robust health as we age. It has been suggested that
 
 As previously mentioned, the grep -v command prints lines that doesn't match the pattern. Note: -e is not part of the -v command. -e is used to provide multiple patterns. In the first example, grep is used in the file named 1468-6708-3-1.txt located in stringsearch-data/technical/biomed. The command will only print lines that don't contain "the", "a" , "to", and "in". In the second example, grep is used in the same file, but the pattern is different. In this case, grep will print lines that don't contain "the" and "i". This command option is useful when you need to find lines that don't contain a certain word, character, etc...
 
-
+---
 
 grep -c: This command prints the number of lines that matches the pattern.
 [Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
@@ -141,7 +141,7 @@ Output:
 ```
 As previously mentioned, the grep -c command prints the number of lines that matches the pattern. In both examples, the grep command is used in the same file as the one used in the grep -v command, which is 1468-6708-3-1.txt. In the first example, the grep command found 144 lines that contained "the". In the second example, the grep command found 377 lines that contained "a". This command option is useful when you want to know how many lines contain a certain character, word, etc....
 
-
+---
 
 grep -n: This command will print the line number of the line matching the pattern.
 
@@ -201,7 +201,7 @@ Output:
 ```
 As previously mentioned, the grep -n command prints the line number of the line that matches the pattern. In both examples, the file is Post_Rate_Comm, located in stringsearch-data/technical/government/Post_Rate_Comm. In the first example, it printed the line numbers that contains "not". In the second example, it printed the line numbers that contained "9". This command option is useful when you need to know the exact line number that matches a pattern. 
 
-
+---
 
 grep -L: This command prints the files that doesn't contain the matching lines.
 
