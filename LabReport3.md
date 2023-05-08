@@ -199,7 +199,7 @@ Output:
 465:PRC Docket No. R2000-1 USPS LR-I-481, FY 1999 and TY Mail
 467:LR-I-81 & 464 Provided in Response to POR No. 116) Using FY 99
 ```
-As previously mentioned, the grep -n command prints the line number of the line that matches the pattern. In both examples, the file is Post_Rate_Comm, located in stringsearch-data/technical/government/Post_Rate_Comm. In the first example and second example, the grep command prints the line number of the lines that matches the pattern. This command option is useful when you need to know the exact line number that matches a pattern. 
+As previously mentioned, the grep -n command prints the line number of the line that matches the pattern. In both examples, the file is Post_Rate_Comm, located in stringsearch-data/technical/government/Post_Rate_Comm. In the first example, it printed the line numbers that contains "not". In the second example, it printed the line numbers that contained "9". This command option is useful when you need to know the exact line number that matches a pattern. 
 
 
 
@@ -233,3 +233,4 @@ Output:
 Cohenetal_RuralDelivery.txt
 WolakSpeech_usps.txt
 ```
+As previously mentioned, the grep -L command prints the name of the files that doesn't contain the matching lines. In both examples, the directory is Post_Rate_Comm. In the first example, the command printed the name of the files that contained "Government". In the second example, it printed the name of files that contained "because". This command option is useful if you want to find specific files that doesn't contain a specific character, word, etc...
