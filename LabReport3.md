@@ -199,4 +199,6 @@ Output:
 465:PRC Docket No. R2000-1 USPS LR-I-481, FY 1999 and TY Mail
 467:LR-I-81 & 464 Provided in Response to POR No. 116) Using FY 99
 ```
-As previously mentioned, the grep -n command prints the line number of the line that matches the pattern. In both examples, the file is Post_Rate_Comm, located in stringsearch-data/technical/government/Post_Rate_Comm. In the first example and second example, the grep command prints the line number of the lines that matches the pattern. 
+As previously mentioned, the grep -n command prints the line number of the line that matches the pattern. In both examples, the file is Post_Rate_Comm, located in stringsearch-data/technical/government/Post_Rate_Comm. In the first example and second example, the grep command prints the line number of the lines that matches the pattern. This command option is useful when you need to know the exact line number that matches a pattern. 
+
+
