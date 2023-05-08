@@ -121,6 +121,7 @@ As previously mentioned, the grep -v command prints lines that doesn't match the
 
 
 grep -c: This command prints the number of lines that matches the pattern.
+[Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
 
 First example:
 ```
