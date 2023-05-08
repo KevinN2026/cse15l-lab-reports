@@ -6,6 +6,7 @@ First example:
 ```
 grep -v -e "the" -e "a" -e "to" -e "in" 1468-6708-3-1.txt
 
+Output:
  Introduction
         elderly [ 9 ] .
 
@@ -55,6 +56,7 @@ Second example:
 ```
 grep -v -e "the" -e "i" 1468-6708-3-1.txt
 
+Output:
 most robust health as we age. It has been suggested that
         elderly [ 9 ] .
 
