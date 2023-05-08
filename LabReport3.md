@@ -146,7 +146,28 @@ grep -n: This command will print the line number of the line matching the patter
 
 First example:
 ```
+grep -n "not" Cohenetal_Cost_Function.txt
 
+Output:
+25:do not necessarilyrepresent the opinions of CTT - Correios de
+40:sensitive and will not share them.
+78:industrialized countries.3 The hypothesis cannot, however, be
+79:directly confirmed because we do not have sufficient cost data on
+87:Although the evidence is not conclusive, it confirms the
+126:not change as volume drops. As long as coverage is relatively high,
+128:delivery costs would not be expected to drop until volume per
+136:The results are not very sensitive to this assumption as can be
+172:Does not include intra city transportation costs.
+211:does not involve predicting unit costs of other posts. It involves
+213:and delivery. Thus, labor costs do not need to be adjusted.
+248:total cost for La Poste do not include unaddressed mail.
+312:acceptance, 15 percent. Nevertheless, the authors cannot explain
+320:It appears that other factors, for which adjustments are not
+321:made, do not cause significant differences. This could be because
+322:these factors do not vary significantly from the U.S., do not drive
+362:these adjustments were not available, except for Italy. The
+404:with reasonable accuracy. Of course, we would not expect exact
+436:Percentage of mail not delivered (i.e. Post Office Box
 ```
 
 Second example:
