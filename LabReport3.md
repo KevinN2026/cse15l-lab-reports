@@ -2,7 +2,7 @@ The grep command finds all the lines in a file that matches the provided pattern
 
 [Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
 
-grep -v: This command only prints out the lines that don't match the pattern.
+grep -v: This command option only prints out the lines that don't match the pattern.
 
 First example:
 ```
