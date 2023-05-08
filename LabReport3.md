@@ -209,7 +209,20 @@ grep -L: This command prints the files that doesn't contain the matching lines.
 
 First example:
 ```
+grep -L "Government" *
 
+Output:
+Cohenetal_comparison.txt
+Cohenetal_Cost_Function.txt
+Cohenetal_CreamSkimming.txt
+Cohenetal_DeliveryCost.txt
+Cohenetal_RuralDelivery.txt
+Cohenetal_Scale.txt
+Gleiman_EMASpeech.txt
+Gleiman_gca2000.txt
+Mitchell_spyros-first-class.txt
+Redacted_Study.txt
+WolakSpeech_usps.txt
 ```
 
 Second example:
