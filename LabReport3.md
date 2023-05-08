@@ -202,3 +202,17 @@ Output:
 As previously mentioned, the grep -n command prints the line number of the line that matches the pattern. In both examples, the file is Post_Rate_Comm, located in stringsearch-data/technical/government/Post_Rate_Comm. In the first example and second example, the grep command prints the line number of the lines that matches the pattern. This command option is useful when you need to know the exact line number that matches a pattern. 
 
 
+
+grep -L: This command prints the files that doesn't contain the matching lines.
+
+[Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
+
+First example:
+```
+
+```
+
+Second example:
+```
+
+```
