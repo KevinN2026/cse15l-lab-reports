@@ -113,4 +113,4 @@ most robust health as we age. It has been suggested that
         poor?
 ```
 
-As previously mentioned, the grep -v command prints lines that doesn't match the pattern. Note: -e is not part of the -v command. -e is used to provide multiple patterns. In this case, grep is used in the file named 1468-6708-3-1.txt located in stringsearch-data/technical/biomed. The command will only print lines that don't contain "the", "a" , "to", and "in".
+As previously mentioned, the grep -v command prints lines that doesn't match the pattern. Note: -e is not part of the -v command. -e is used to provide multiple patterns. In the first example, grep is used in the file named 1468-6708-3-1.txt located in stringsearch-data/technical/biomed. The command will only print lines that don't contain "the", "a" , "to", and "in". In the second example, grep is used in the same file, but the pattern is different. In this case, grep will print lines that don't contain "the" and "i". This command option is useful when you need to find lines that don't contain a certain word, character, etc...
