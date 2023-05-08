@@ -227,5 +227,9 @@ WolakSpeech_usps.txt
 
 Second example:
 ```
+grep -L "because" *
 
+Output:
+Cohenetal_RuralDelivery.txt
+WolakSpeech_usps.txt
 ```
