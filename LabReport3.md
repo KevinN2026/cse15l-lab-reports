@@ -124,8 +124,10 @@ grep -c: This command prints the number of lines that matches the pattern.
 
 First example:
 ```
+grep -c "the" 1468-6708-3-1.txt
 
-
+Output:
+144
 ```
 
 Second example:
