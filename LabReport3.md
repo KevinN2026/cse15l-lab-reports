@@ -1,6 +1,7 @@
 The grep command finds all the lines in a file that matches the provided pattern. In my opinion, the following grep options are interesting: -v, -c, -n, and -L.
 
 [Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
+
 Source: https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html
 
 grep -v: This command option only prints out the lines that don't match the pattern.
@@ -124,6 +125,7 @@ As previously mentioned, the grep -v command prints lines that doesn't match the
 
 grep -c: This command prints the number of lines that matches the pattern.
 [Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
+
 Source: https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html
 
 First example:
@@ -148,6 +150,7 @@ As previously mentioned, the grep -c command prints the number of lines that mat
 grep -n: This command will print the line number of the line matching the pattern.
 
 [Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
+
 Source: https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html
 
 First example:
@@ -209,6 +212,7 @@ As previously mentioned, the grep -n command prints the line number of the line 
 grep -L: This command prints the files that doesn't contain the matching lines.
 
 [Source](https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html)
+
 Source: https://www.oreilly.com/library/view/linux-pocket-guide/9780596806347/re52.html
 
 First example:
