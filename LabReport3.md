@@ -132,6 +132,8 @@ Output:
 
 Second example:
 ```
+grep -c "a" 1468-6708-3-1.txt
 
-
+Output:
+377
 ```
