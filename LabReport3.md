@@ -172,5 +172,25 @@ Output:
 
 Second example:
 ```
-
+grep -n "9" Cohenetal_Cost_Function.txt
+54:is 74 cents versus the actual value of 79 cents. It must be pointed
+56:range of volume. U.S. volume per capita in 1999 was 739 pieces
+108:To create a total cost function, we use FY 1999 U.S. Postal
+143:Transportation = 0.0200V + 0.92P Window Service = 0.0092V + 4.64P
+144:All Other costs = 0.0241V + 24.41P Total costs = 0.2089V + 74.31P
+147:in the U.S. for FY 1999 was 20.89 cents per piece plus $74.31 per
+152:Average Unit Cost = 0.2089 + (74.31 P / V). This can be restated
+154:Average Unit Cost = 0.2089 + (74.31 / ppc).
+164:Table 1: FY 1999 USPS Percent of Total Cost and Elasticity (with
+182:Total Cost for country "i" = (0.2089 Pi)(V/Pi) + 74.31 Pi,
+184:0.2089Pi = slope
+342:For delivery percentages, the trend line is y=46.943e-0.0004x with
+344:y=10.869Ln(x) - 38.407 with an R2 of 0.69.
+370:using OECD's PPP for 1999.
+372:per Piece for 1999
+375:Canada 43 41 Finland 34 39 France 38b 40b Germany 50 57 Italy 90
+376:79c Portugal 62 54
+407:Appendix: FY 1999 USPS Operational Statistics
+465:PRC Docket No. R2000-1 USPS LR-I-481, FY 1999 and TY Mail
+467:LR-I-81 & 464 Provided in Response to POR No. 116) Using FY 99
 ```
