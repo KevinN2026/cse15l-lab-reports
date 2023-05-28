@@ -1,4 +1,5 @@
 ![Image](Welcome - Visual Studio Code 5_27_2023 10_12_42 PM.png)
+
 For step 4, which was to log into my ieng6 account, the buttons I pressed were ```<up> <enter>``` because my ssh login command was 1 up in the history. For step 5, which was to clone my fork of the lab 7 repository, I typed "git clone https://github.com/KevinN2026/lab7.git" and I pressed ```<enter>```. 
 
 ![Image](Welcome - Visual Studio Code 5_27_2023 10_13_32 PM.png)
