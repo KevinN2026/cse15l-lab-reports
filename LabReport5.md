@@ -52,7 +52,7 @@ class Test{
 
 ```
 
-The command is also dependent on the user since the command used to run the file in this case was based on where bug.java was located on my laptop. On top of the main method, there should be a run/debug button. Clicking the run button will automatically autofill the command containing the file path and run the file. To fix the bug, change the ```int i = 0``` statement in the for loop to ```int i = 1```. 
+The command is also dependent on the user since the command used to run the file in this case was based on where bug.java was located on my laptop. On top of the main method, there should be a run/debug button. Clicking the run button will automatically autofill the command containing the file path and run the file. To fix the bug, change the ```int i = 1``` statement in the for loop to ```int i = 0```. 
 
 ***
 # Part 2
