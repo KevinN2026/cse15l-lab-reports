@@ -14,6 +14,8 @@ Go ahead and try it and see if that works.
 
 
 ![Image](bug.java - Personal Coding Projects - Visual Studio Code 6_4_2023 12_43_10 PM.png)
+The student made the changes suggested and the bug is now fixed and the output matches the expected output. As previously mentioned, the bug was in the for loop, which was the indexing starting at 1 instead of starting at 0. 
+
 
 
 
