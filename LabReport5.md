@@ -17,7 +17,7 @@ Go ahead and try it and see if that works.
 The student made the changes suggested and the bug is now fixed and the output matches the expected output. As previously mentioned, the bug was in the for loop, which was the indexing starting at 1 instead of starting at 0. 
 
 Setup:
-The file needed is bug.java, this contains all of the code. The directory will depend the user as the directory in this case was local on my laptop. In general, the directory would be whatever bug.java is located in. 
+The file needed is [bug.java](bug.java), this contains all of the code. The directory will depend the user as the directory in this case was local on my laptop. In general, the directory would be whatever bug.java is located in. 
 Here is the contents of the file before fixing the bug:
 ```
 public class bug{
