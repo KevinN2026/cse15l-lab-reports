@@ -2,6 +2,7 @@
 ![Image]((4) CSE 15L – Ed Discussion - Google Chrome 6_4_2023 12_23_21 PM.png)
 ![Image]((4) CSE 15L – Ed Discussion - Google Chrome 6_4_2023 12_23_35 PM.png)
 ![Image]((4) CSE 15L – Ed Discussion - Google Chrome 6_4_2023 12_23_47 PM.png)
+
 Indeed there is a bug in your program. As you have pointed out, your code is compiling and running with no error. After close examination, I have identified the bug. The bug is in your for loop, your indexing starts at 1. You should start indexing at 0. In your for loop, make the following changes:
 ```
 //Previous code
