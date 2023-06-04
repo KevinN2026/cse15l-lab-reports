@@ -13,6 +13,8 @@ for(int i =0; i < nums.length; i++)
 Go ahead and try it and see if that works. 
 
 
+![Image](bug.java - Personal Coding Projects - Visual Studio Code 6_4_2023 12_43_10 PM.png)
+
 
 
 ***
