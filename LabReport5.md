@@ -20,10 +20,6 @@ Setup:
 The file needed is bug.java, this contains all of the code. The directory will depend the user as the directory in this case was local on my laptop. In general, the directory would be whatever bug.java is located in. 
 Here is the contents of the file before fixing the bug:
 ```
-// import static org.junit.Assert.*;
-// import org.junit.*;
-
-
 public class bug{
     static int[] nums = {1, 5, 9, 2, 7};
     public static void main(String[] args){
