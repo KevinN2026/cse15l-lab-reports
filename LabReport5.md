@@ -16,8 +16,14 @@ Go ahead and try it and see if that works.
 ![Image](bug.java - Personal Coding Projects - Visual Studio Code 6_4_2023 12_43_10 PM.png)
 The student made the changes suggested and the bug is now fixed and the output matches the expected output. As previously mentioned, the bug was in the for loop, which was the indexing starting at 1 instead of starting at 0. 
 
+Setup:
+The file needed is bug.java, this contains all of the code. The directory will depend the user as the directory in this case was local on my laptop. In general, the directory would be whatever bug.java is located in. 
+Here is the contents of the file before fixing the bug:
+```
 
+```
 
+The command is also dependent on the user since the command used to run the file in this case was based on where bug.java was located on my laptop. On top of the main method, there should be a run/debug button. Clicking the run button will automatically autofill the command containing the file path and run the file. To fix the bug, change the ```int i = 0``` statement in the for ```loop to int i = 1```. 
 
 ***
 # Part 2
