@@ -1,7 +1,3 @@
-// import static org.junit.Assert.*;
-// import org.junit.*;
-
-
 public class bug{
     static int[] nums = {1, 5, 9, 2, 7};
     public static void main(String[] args){
