@@ -1,5 +1,6 @@
 # Part 1
 Student's Edstem Post
+
 ![Image]((4) CSE 15L – Ed Discussion - Google Chrome 6_4_2023 12_23_21 PM.png)
 ![Image]((4) CSE 15L – Ed Discussion - Google Chrome 6_4_2023 12_23_35 PM.png)
 ![Image]((4) CSE 15L – Ed Discussion - Google Chrome 6_4_2023 12_23_47 PM.png)
